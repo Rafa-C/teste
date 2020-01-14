@@ -6,8 +6,11 @@ public class Exercicio1 {
 
         notas[0] = 0.23;
         notas[1] = 3.45;
+        notas[2] = 7.90;
 
-        System.out.println(notas[0]);
+        double media = (notas[0] + notas[1])/2;
+
+        System.out.println(media);
     }
 
 }
